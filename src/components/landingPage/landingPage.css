@@ -28,7 +28,7 @@ h2{
 }
 
 .dashboard{
-    width: 700px;
+    width: 650px;
     margin-bottom: 20px;
 }
 
@@ -59,4 +59,14 @@ h2{
 .rights{
     color: hsl(0, 0%, 59%);
     font-size: 15px;
+}
+
+@media(max-width:500px){
+    h1{
+        font-size: 28px;
+    }
+
+    .dashboard{
+        width: 300px;
+    }
 }

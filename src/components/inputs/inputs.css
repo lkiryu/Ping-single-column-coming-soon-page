@@ -21,6 +21,10 @@ input {
     border: 1px solid hsl(354, 100%, 66%);
 }
 
+.emailInput.error::placeholder{
+    color: hsl(354, 100%, 66%);
+}
+
 .error-mensage{
     font-size: 14px;
     margin-left: 25px;
@@ -47,4 +51,14 @@ input {
 
 .submitImput:hover{
     opacity: 80%;
+}
+
+@media(max-width:500px){
+    .inputs {
+        flex-direction: column;
+    }
+
+    .emailInput, .submitImput{
+        width: 300px;
+    }
 }
