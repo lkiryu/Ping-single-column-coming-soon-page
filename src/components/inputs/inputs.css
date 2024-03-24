@@ -1,7 +1,7 @@
 .inputs {
     display: flex;
     gap: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 input {
@@ -21,10 +21,11 @@ input {
     border: 1px solid hsl(354, 100%, 66%);
 }
 
-p.error{
+.error-mensage{
     font-size: 14px;
     margin-left: 25px;
     color: hsl(354, 100%, 66%);
+    font-style: italic;
 }
 
 .emailInput::placeholder{
