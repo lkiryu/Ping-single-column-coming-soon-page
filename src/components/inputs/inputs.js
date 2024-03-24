@@ -1,5 +1,7 @@
 import React from "react";
 
+import './inputs.css'
+
 const Inputs = () => {
     return(
         <div className="inputs">

@@ -1,0 +1,49 @@
+.inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+input {
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.emailInput {
+    width: 350px;
+    border: 1px solid hsl(223, 100%, 88%);
+    margin-bottom: 5px;
+}
+
+.emailInput.error{
+    border: 1px solid hsl(354, 100%, 66%);
+}
+
+p.error{
+    font-size: 14px;
+    margin-left: 25px;
+    color: hsl(354, 100%, 66%);
+}
+
+.emailInput::placeholder{
+    color: hsl(223, 100%, 88%);
+}
+
+.emailInput:focus{
+    outline: none;
+}
+
+.submitImput{
+    width: 150px;
+    background-color: hsl(223, 87%, 63%);
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.submitImput:hover{
+    opacity: 80%;
+}
