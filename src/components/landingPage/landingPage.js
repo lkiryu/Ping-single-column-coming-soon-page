@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../images/logo.svg'
+import Inputs from "../inputs/inputs";
 import dashboard from '../../images/illustration-dashboard.png'
 
 const LandingPage = () => {
@@ -11,13 +12,7 @@ const LandingPage = () => {
             <h1>We are launching <span>soon!</span></h1>
             <h2>Subscribe and get notified</h2>
 
-            <div className="inputs">
-                <div className="email">
-                    <input type="email" placeholder="Your email address..." className="emailInput"></input>
-                    <p className="error"></p>
-                </div>
-                <input type="submit" value='Notify Me' className="submitImput"></input>
-            </div>
+            <Inputs/>
 
             <img src={dashboard} alt="dashboard"></img>
 
